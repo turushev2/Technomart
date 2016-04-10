@@ -1,0 +1,24 @@
+{
+  "name": "Tehnomart",
+  "homepage": "https://github.com/turushev2/Technomart.git",
+  "authors": [
+    "Maksim <turushev2@yandex.ru>"
+  ],
+  "description": "Technomart",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.3",
+    "bootstrap-sass": "^3.3.6",
+    "owl.carousel": "OwlCarousel2#^2.0.0-beta.3"
+  }
+}
