@@ -1,0 +1,68 @@
+.popular{
+	margin-bottom: 80px;
+	&__head {
+		height: 90px;
+		margin-bottom: 40px;
+		display: flex;
+		justify-content: space-between;
+		background-color: #F7F3EC;
+		    padding: 0px 25px;
+		        align-items: center;
+	}
+	&__head--header{
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+	&__head--btn {
+		padding: 15px 60px;
+		background-color: #ee3643;
+		text-transform: uppercase;
+		color: #fff;
+		        border-radius: 4px;
+	}
+	.popular-product{
+		&__item {
+			padding-top: 30px;
+			padding-bottom: 10px;
+			padding-right: 40px;
+			padding-left: 40px;
+			text-align: center;
+			margin-bottom: 20px;
+			border: 2px solid #f7f3ec;
+		}
+		&__item--name{
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+		&__item--old-price{
+			color: #999;
+			font-weight: bold;
+			margin-bottom: 10px;
+			font-size: 17px;
+			text-decoration: line-through;
+		}
+		&__item--new-price{
+			padding: 10px 30px;
+			background-color: #ee3643;
+			font-size: 17px;
+			color: #fff;
+			display: inline-block;
+			-webkit-border-radius: 4px;
+			        border-radius: 4px;
+		}
+	}
+	&__brand {
+		border: 2px solid #f7f3ec;
+		height: 140px;
+		display: flex;
+		 align-items: center;
+		margin-bottom: 20px;
+		img {
+			margin: 0 auto;
+		}
+	}
+}
+.container {
+	padding: 0px;
+}

@@ -1,0 +1,75 @@
+.top-line{
+	background-color: #293449;
+	&__inside-menu{
+		    font-size: 17px;
+		padding-left: 0;
+		 &--item{
+			padding: 18px;
+			display: inline-block;
+			list-style: none;
+			text-align: center;
+		 	a{
+		 		color: #FFF;
+		 	}
+		 	a:hover {
+		 		text-decoration: none;
+		 	}
+		}
+	}
+		li:first-child {
+				padding: 0px;
+			}
+		li:last-child{
+			background-color: #63A63E;
+		}
+		li:last-child:hover{
+			background-color: #5FBB2D;
+		}
+		li:hover {
+			background-color: #212a3a;
+			cursor: pointer;
+			.marker:before {
+				opacity: 1;
+			}
+			.basket:before {
+				opacity: 1;
+			}
+		}
+}
+
+.search {
+	width: 100%;
+	padding: 18px 20px;
+	border: 0px;
+	position: relative;
+	background: transparent;
+}
+.search:hover {
+	background-color: #212a3a;
+}
+.marker:before{
+	content:'';
+	background-image: url(../img/marker-img.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 20px;
+	position: absolute;
+	left: -30px;
+	opacity: 0.4;
+}
+.marker {
+	position: relative;
+}
+.basket{
+	position: relative;
+}
+.basket:before{
+	content:'';
+	background-image: url(../img/basket-img.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 20px;
+	position: absolute;
+	left: -30px;
+	opacity: 0.4;
+}

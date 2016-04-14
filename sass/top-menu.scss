@@ -1,0 +1,90 @@
+.top-menu {
+	padding:55px 0;
+	background-color: #f1f5f7;
+	&__element:nth-child(1) {
+		padding-left: 50px;
+		font-size: 16px;
+		font-family: cumprumItalic;
+		font-style: italic;
+	}
+	&__element:nth-child(3) {
+		padding-right: 0;
+		padding-left: 48px;
+	}
+	&__element{
+		font-size: 21px;
+		color:#ee3643;
+		margin-bottom: 45px;
+	}
+	&__element--adress{
+		font-size: 14px;
+		margin: 0;
+		color: #32425C;
+	}&__element--contact{
+		margin: 0;
+		position: relative;
+		padding-left: 70px;
+		padding-top: 10px;
+		padding-right: 40px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		border:3px solid #fff;
+		display: inline-flex;
+		font-weight: bold;
+	}
+	&__element--contact:before{
+		content: '';
+		height: 20px;
+		width: 20px;
+		position: absolute;
+		background-image: url(../img/phone.png);
+		background-repeat: no-repeat;
+		left: 20px;
+   		 bottom: 13px;
+	}
+	&__element--text {
+		font-weight: bold;
+	}
+}
+.login {
+	padding: 15px 25px 15px 50px;
+	color: #000;
+	background-color: #FFF;
+	display: inline-block; 
+	margin-right: 20px;
+	position: relative;
+}
+.login:before{
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/login.png);
+	background-repeat: no-repeat;
+	left: 20px;
+	bottom: 18px;
+	opacity: 0.4;
+
+	transition:0.4s;
+	
+}
+.login:hover {
+	color: #ee3643;
+	text-decoration: none;
+	opacity:1;
+}
+.login:hover:before {
+	opacity: 1;
+}
+.registration {
+	padding: 15px 25px;
+	color: #000;
+	background-color: #FFF;
+	display: inline-block; 
+		transition:0.4s;
+	
+}
+.registration:hover {
+	color: #ee3643;
+	text-decoration: none;
+}
